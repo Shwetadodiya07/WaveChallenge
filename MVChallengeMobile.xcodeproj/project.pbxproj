@@ -16,6 +16,15 @@
 		4BA24B31249B07A800E550C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA24B30249B07A800E550C7 /* main.m */; };
 		4BA24B3B249B07A800E550C7 /* MVChallengeMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA24B3A249B07A800E550C7 /* MVChallengeMobileTests.m */; };
 		4BA24B46249B07A800E550C7 /* MVChallengeMobileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA24B45249B07A800E550C7 /* MVChallengeMobileUITests.m */; };
+		4BA24B58249BD38F00E550C7 /* RequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA24B57249BD38F00E550C7 /* RequestHandler.m */; };
+		4BA24B59249BD38F00E550C7 /* RequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA24B57249BD38F00E550C7 /* RequestHandler.m */; };
+		4BA24B5A249BD38F00E550C7 /* RequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA24B57249BD38F00E550C7 /* RequestHandler.m */; };
+		4BA24B69249C2E5900E550C7 /* ProductListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA24B67249C2E5900E550C7 /* ProductListCell.m */; };
+		4BA24B6A249C2E5900E550C7 /* ProductListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA24B67249C2E5900E550C7 /* ProductListCell.m */; };
+		4BA24B6B249C2E5900E550C7 /* ProductListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA24B67249C2E5900E550C7 /* ProductListCell.m */; };
+		4BA24B6C249C2E5900E550C7 /* ProductListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA24B68249C2E5900E550C7 /* ProductListCell.xib */; };
+		4BA24B6D249C2E5900E550C7 /* ProductListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA24B68249C2E5900E550C7 /* ProductListCell.xib */; };
+		4BA24B6E249C2E5900E550C7 /* ProductListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BA24B68249C2E5900E550C7 /* ProductListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +63,12 @@
 		4BA24B41249B07A800E550C7 /* MVChallengeMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVChallengeMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA24B45249B07A800E550C7 /* MVChallengeMobileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVChallengeMobileUITests.m; sourceTree = "<group>"; };
 		4BA24B47249B07A800E550C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA24B54249B090E00E550C7 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		4BA24B56249BD38F00E550C7 /* RequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestHandler.h; sourceTree = "<group>"; };
+		4BA24B57249BD38F00E550C7 /* RequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestHandler.m; sourceTree = "<group>"; };
+		4BA24B66249C2E5900E550C7 /* ProductListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListCell.h; sourceTree = "<group>"; };
+		4BA24B67249C2E5900E550C7 /* ProductListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListCell.m; sourceTree = "<group>"; };
+		4BA24B68249C2E5900E550C7 /* ProductListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +119,9 @@
 		4BA24B1D249B07A700E550C7 /* MVChallengeMobile */ = {
 			isa = PBXGroup;
 			children = (
+				4BA24B65249C2E2000E550C7 /* TableViewCell */,
+				4BA24B55249BD35900E550C7 /* RequestHandler */,
+				4BA24B53249B08ED00E550C7 /* Utilities */,
 				4BA24B1E249B07A700E550C7 /* AppDelegate.h */,
 				4BA24B1F249B07A700E550C7 /* AppDelegate.m */,
 				4BA24B21249B07A700E550C7 /* SceneDelegate.h */,
@@ -135,6 +153,33 @@
 				4BA24B47249B07A800E550C7 /* Info.plist */,
 			);
 			path = MVChallengeMobileUITests;
+			sourceTree = "<group>";
+		};
+		4BA24B53249B08ED00E550C7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4BA24B54249B090E00E550C7 /* Constant.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4BA24B55249BD35900E550C7 /* RequestHandler */ = {
+			isa = PBXGroup;
+			children = (
+				4BA24B56249BD38F00E550C7 /* RequestHandler.h */,
+				4BA24B57249BD38F00E550C7 /* RequestHandler.m */,
+			);
+			path = RequestHandler;
+			sourceTree = "<group>";
+		};
+		4BA24B65249C2E2000E550C7 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4BA24B66249C2E5900E550C7 /* ProductListCell.h */,
+				4BA24B67249C2E5900E550C7 /* ProductListCell.m */,
+				4BA24B68249C2E5900E550C7 /* ProductListCell.xib */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BA24B2E249B07A800E550C7 /* LaunchScreen.storyboard in Resources */,
+				4BA24B6C249C2E5900E550C7 /* ProductListCell.xib in Resources */,
 				4BA24B2B249B07A800E550C7 /* Assets.xcassets in Resources */,
 				4BA24B29249B07A700E550C7 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA24B6D249C2E5900E550C7 /* ProductListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA24B6E249C2E5900E550C7 /* ProductListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BA24B26249B07A700E550C7 /* ViewController.m in Sources */,
+				4BA24B58249BD38F00E550C7 /* RequestHandler.m in Sources */,
 				4BA24B20249B07A700E550C7 /* AppDelegate.m in Sources */,
+				4BA24B69249C2E5900E550C7 /* ProductListCell.m in Sources */,
 				4BA24B31249B07A800E550C7 /* main.m in Sources */,
 				4BA24B23249B07A700E550C7 /* SceneDelegate.m in Sources */,
 			);
@@ -278,6 +328,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA24B6A249C2E5900E550C7 /* ProductListCell.m in Sources */,
+				4BA24B59249BD38F00E550C7 /* RequestHandler.m in Sources */,
 				4BA24B3B249B07A800E550C7 /* MVChallengeMobileTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA24B6B249C2E5900E550C7 /* ProductListCell.m in Sources */,
+				4BA24B5A249BD38F00E550C7 /* RequestHandler.m in Sources */,
 				4BA24B46249B07A800E550C7 /* MVChallengeMobileUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

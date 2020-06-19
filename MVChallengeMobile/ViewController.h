@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RequestHandler.h"
+#import "ProductListCell.h"
 
-@interface ViewController : UIViewController
+#import "Constant.h"
 
+@interface ViewController : UIViewController<RequestHandlerServiceDelegate>
+
+@property (nonatomic, strong) IBOutlet UITableView *tblView;
+@property (nonatomic, strong) IBOutlet ProductListCell *Celltbl;
+@property (nonatomic, strong) NSMutableArray *productList;
+@property (nonatomic, strong) UIRefreshControl *refreshControl;
+@property (nonatomic, strong) RequestHandler *requesthandlerObj;
 
 @end
 
